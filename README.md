@@ -13,6 +13,12 @@ VOXAI is a smart, voice-driven assistant web application powered by **Google's G
 - 🗂️ SQLAlchemy ORM for database interactions
 
 ---
+## 🖼️ Homepage Preview
+
+![VOXAI Homepage](static/homepage.png)
+
+---
+
 
 ## 🛠️ Tech Stack
 

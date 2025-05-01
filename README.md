@@ -15,7 +15,7 @@ VOXAI is a smart, voice-driven assistant web application powered by **Google's G
 ---
 ## 🖼️ Homepage Preview
 
-![VOXAI Homepage](templates/homepage.png)
+![VOXAI Homepage](static/images/homepage.png)
 
 ---
 

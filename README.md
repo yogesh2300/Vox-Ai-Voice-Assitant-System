@@ -1,100 +1,47 @@
-🎙️ VOXAI — Voice Assistant Web App with Gemini AI
-VOXAI is an intelligent, voice-based assistant web application powered by Google's Gemini 1.5 Pro model. It offers real-time AI-driven responses to user voice queries and provides a seamless conversational experience. Users can register, log in, and interact with the assistant via a clean Flask-based interface.
+# 🧠 VOXAI – AI-Powered Voice Assistant Web App
 
-🚀 Features
-🔐 User Registration and Authentication using Flask & SQLite
+VOXAI is a smart, voice-driven assistant web application powered by **Google's Gemini 1.5 Pro**. Built using **Flask**, it offers real-time, concise responses through a conversational interface. The app includes secure user authentication and maintains a history of interactions for a personalized experience.
 
-🤖 Voice-powered AI Assistant with Google Gemini
+---
 
-💬 Maintains conversational history
+## 🚀 Features
 
-🌐 Flask web app structure with routes for /, /login, /register, /dashboard, and more
+- 🎙️ Voice-based AI assistant using Google Gemini
+- 🔐 User registration & secure login system (bcrypt + SQLite)
+- 💬 Real-time AI responses with history tracking
+- 🌐 Web interface with clean Flask routing
+- 🗂️ SQLAlchemy ORM for database interactions
 
-🛡️ Passwords securely hashed using bcrypt
+---
 
-🗃️ Stores user data with SQLAlchemy ORM
+## 🛠️ Tech Stack
 
-🧠 Tech Stack
-Backend: Python, Flask, SQLAlchemy
+| Category     | Tools/Technologies            |
+|--------------|-------------------------------|
+| Backend      | Python, Flask, SQLAlchemy     |
+| AI Model     | Google Gemini 1.5 Pro         |
+| Database     | SQLite                        |
+| Security     | bcrypt                        |
+| Frontend     | HTML (Jinja2 Templates)       |
 
-AI Model: Google Gemini 1.5 Pro via google.generativeai
+---
 
-Database: SQLite
+## 📦 Installation
 
-Security: bcrypt for password hashing
-
-Frontend: HTML (via Flask templates)
-
-🛠️ Installation
-Clone the repository
-
-bash
-Copy
-Edit
+```bash
+# 1. Clone the repository
 git clone https://github.com/your-username/voxai.git
 cd voxai
-Create and activate a virtual environment
 
-bash
-Copy
-Edit
+# 2. Create & activate virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
 
-bash
-Copy
-Edit
+# 3. Install dependencies
 pip install -r requirements.txt
-Set up your environment
 
-Replace GOOGLE_API_KEY with your actual Google Gemini API key.
+# 4. Set your Google API key
+export GOOGLE_API_KEY="your-api-key"  # Or store in .env
 
-You can store it in an .env file or export it:
-
-bash
-Copy
-Edit
-export GOOGLE_API_KEY="your-api-key"
-Run the app
-
-bash
-Copy
-Edit
+# 5. Run the app
 python app.py
-Navigate to
-
-cpp
-Copy
-Edit
-http://127.0.0.1:5000/
-🗂️ Project Structure
-csharp
-Copy
-Edit
-.
-├── app.py                  # Main Flask application
-├── templates/              # HTML templates (index, login, register, etc.)
-├── static/                 # Static assets (CSS, JS, media)
-├── database.db             # SQLite database
-└── README.md
-📌 Routes
-Route	Description
-/	Homepage
-/register	User registration
-/login	User login
-/dashboard	Personalized user dashboard
-/process_voice	POST route for handling voice AI
-/logout	User logout
-
-📎 Future Enhancements
-🎤 Integrate real-time voice-to-text conversion
-
-🧠 Context-aware responses with advanced memory handling
-
-📱 Mobile-responsive UI
-
-☁️ Deploy on platforms like Heroku or Azure
-
-📃 License
-This project is licensed under the MIT License - see the LICENSE file for details.

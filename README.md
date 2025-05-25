@@ -32,22 +32,3 @@ VOXAI is a smart, voice-driven assistant web application powered by **Google's G
 
 ---
 
-## 📦 Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/voxai.git
-cd voxai
-
-# 2. Create & activate virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Set your Google API key
-export GOOGLE_API_KEY="your-api-key"  # Or store in .env
-
-# 5. Run the app
-python app.py

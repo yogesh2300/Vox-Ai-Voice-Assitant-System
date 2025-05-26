@@ -1,4 +1,4 @@
-# 🧠 VOXAI – AI-Powered Voice Assistant Web App
+#  VOXAI – AI-Powered Voice Assistant Web App
 
 VOXAI is a smart, voice-driven assistant web application powered by **Google's Gemini 1.5 Pro**. Built using **Flask**, it offers real-time, concise responses through a conversational interface. The app includes secure user authentication and maintains a history of interactions for a personalized experience.
 
@@ -10,7 +10,7 @@ VOXAI is a smart, voice-driven assistant web application powered by **Google's G
 - 🔐 User registration & secure login system (bcrypt + SQLite)
 - 💬 Real-time AI responses with history tracking
 - 🌐 Web interface with clean Flask routing
-- 🗂️ SQLAlchemy ORM for database interactions
+- 🗂️ SQLAlchemy for database interactions
 
 ---
 ## 🖼️ Homepage Preview
